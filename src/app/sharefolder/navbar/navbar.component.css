@@ -1,0 +1,23 @@
+.navbar-light .navbar-nav .nav-link .active-link {
+  color: chocolate;
+  font-weight: bold;
+  /* text-decoration: underline; */
+}
+
+.active-link {
+  font-weight: bold;
+  text-decoration: underline;
+  color: black;
+}
+
+.navbar {
+  color: rgb(2, 48, 108);
+}
+
+.colour {
+  color: black;
+}
+
+.dropdown-item:hover {
+  background-color: rgb(17, 128, 255);
+}

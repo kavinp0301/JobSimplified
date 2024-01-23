@@ -1,0 +1,164 @@
+h1 {
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.card-body {
+  display: inline;
+}
+
+#featured {
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+  margin-top: 100px;
+  padding: 0.8rem;
+  justify-content: space-between;
+}
+
+.card {
+  width: 325px;
+  border-radius: 8px;
+  overflow: hidden;
+  height: 500px;
+  margin-right: 30px;
+}
+
+.form-control {
+  width: 500px;
+  height: 345px;
+}
+input {
+  width: 200px;
+}
+
+#uploadContainer {
+  width: 130px;
+  height: 150px;
+}
+
+.input-group {
+  width: 500px;
+}
+
+.card2 {
+  align-items: center;
+  padding: 20px;
+  width: 800px;
+}
+
+.btn-group {
+  align-items: center;
+}
+
+#position {
+  background-color: rgb(89, 122, 243);
+  color: black;
+  border-radius: 5px;
+}
+
+.col-md {
+  width: 200px;
+  height: 150px;
+}
+.center-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.card2 {
+  width: 300px;
+  margin-bottom: 20px;
+}
+
+.col-md {
+  width: 300px;
+  margin-bottom: 20px;
+}
+
+.row.g-2 {
+  width: 300px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  width: 150px;
+}
+.card {
+  opacity: 0;
+  animation: fadeIn 1.5s ease-out forwards;
+  margin-bottom: 20px;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(
+      20px
+    ); /* Optional: Add a slight vertical translation */
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+#jobdesc {
+  padding: 50px;
+  width: 10px;
+  height: 10px;
+}
+
+.img {
+  background-image: url(http://wallpapercave.com/wp/2YKVsvH.jpg);
+  opacity: 30px;
+  height: 250px;
+  color: white;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-weight: 300;
+}
+
+#upload {
+  color: white;
+}
+
+h3 {
+  font-family: "Poppins", sans-serif;
+  padding: 0px;
+}
+
+#cd1 {
+  background-color: rgb(68, 185, 253);
+}
+
+#cd2 {
+  background-color: rgb(68, 185, 253);
+}
+
+#cd3 {
+  background-color: rgb(68, 185, 253);
+}
+
+#cd4 {
+  background-color: rgb(68, 185, 253);
+}
+
+#cd5 {
+  background-color: rgb(68, 185, 253);
+}
+
+#cd6 {
+  background-color: rgb(68, 185, 253);
+}
+
+h1 {
+  font-family: sans-serif;
+}
+
+.header {
+  text-align: center;
+  font-family: poppins;
+}

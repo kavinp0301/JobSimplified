@@ -1,0 +1,67 @@
+.footer {
+  overflow: hidden;
+  position: sticky;
+  top: 100%;
+  padding: 20px 10px;
+  background-color: black;
+  margin-bottom: -550px;
+  height: 400px;
+}
+.col2 {
+  /*  background-color: black; */
+  padding: 0px;
+  align-content: center;
+}
+
+a {
+  text-decoration: none;
+  padding: 0px 10px;
+}
+
+a:hover {
+  color: chartreuse;
+}
+
+body {
+  height: 100%;
+  min-height: 100%;
+  font-family: poppins;
+}
+
+.col6 {
+  color: white;
+}
+
+h5 {
+  text-align: right;
+  color: white;
+}
+
+li {
+  color: white;
+}
+
+h4 {
+  color: white;
+}
+
+#job {
+  color: white;
+  text-align: center;
+  margin-bottom: -1500px;
+}
+
+#job1 {
+  color: white;
+  text-align: center;
+  margin-bottom: -1500px;
+}
+
+.card {
+  background-color: black;
+}
+
+.link2 {
+  text-align: right;
+  align-items: right;
+}

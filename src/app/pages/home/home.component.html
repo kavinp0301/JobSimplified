@@ -1,0 +1,136 @@
+<h1 class="img">
+  <br />
+  <br />
+  There is no substitute for hardwork
+</h1>
+<br />
+
+<h3 class="header">Recommended</h3>
+<div id="featured" class="col">
+  <div class="card" style="width: 18rem">
+    <img
+      src="https://i.pinimg.com/originals/4a/1d/2d/4a1d2dd436f4fd2c1ae6ed220610b7ec.jpg"
+      class="card-img-top"
+      alt="..."
+    />
+
+    <div class="card-body" id="cd1">
+      <h5>Artifical Intelligence-Machine Learning Certified Course</h5>
+      <p class="card-text">
+        Explore the artificial Intelligence-Machine Learning and get to know
+        about the future of AI
+      </p>
+      <button class="btn btn-outline-dark" type="submit">Know More</button>
+    </div>
+  </div>
+
+  <div class="card" style="width: 18rem">
+    <img
+      src="https://image.freepik.com/free-vector/internship-job-illustration_52683-50829.jpg"
+      class="card-img-top"
+      alt="..."
+    />
+    <div class="card-body" id="cd2">
+      <h5>Placement and Internship Assitence</h5>
+      <p class="card-text">
+        Acheive more in your career with assistance from experts and setting up
+        for a better future
+      </p>
+      <button class="btn btn-outline-dark" type="submit">Enroll Now</button>
+    </div>
+  </div>
+  <div class="card" style="width: 18rem">
+    <img
+      src="https://tse1.mm.bing.net/th?id=OIP.pkvPEzldJ4A1EbEGCXUTQgHaEM&pid=Api&P=0&h=180"
+      class="card-img-top"
+      alt="..."
+    />
+    <div class="card-body" id="cd3">
+      <h5>Online International Internships</h5>
+      <p class="card-text">
+        Get a hands-on job experience through online internships offered by
+        international companies
+      </p>
+      <button class="btn btn-outline-dark" type="submit">Know More</button>
+    </div>
+  </div>
+  <div class="card" style="width: 18rem">
+    <img
+      src="https://tse2.mm.bing.net/th?id=OIP.StBjUapJaG0Q2GzhOXg6OgAAAA&pid=Api&P=0&h=180"
+      class="card-img-top"
+      alt="..."
+    />
+    <div class="card-body" id="cd4">
+      <h5>Chatgpt Tools Specialisation Course by Microsoft</h5>
+      <p class="card-text">
+        Get a Certificate by Microsoft for using Chatgpt Tools in Artificial
+        Intelligence - Machine learning
+      </p>
+      <button class="btn btn-outline-dark" type="submit">Know More</button>
+    </div>
+  </div>
+</div>
+<h3 class="header">Enter your job description and stipend</h3>
+
+<div class="container mt-5" id="upload">
+  <div class="row">
+    <!-- Upload Container -->
+    <div class="col-md-6">
+      <div class="card">
+        <div class="card-body" id="cd5">
+          <h5 class="card-title">Upload your Job/Internship details</h5>
+          <div class="mb-3">
+            <label for="jobtype" class="form-label">Job Type</label>
+            <select class="form-select" id="jobtype">
+              <option selected>Select</option>
+              <option value="Internship">Internship</option>
+              <option value="Job">Full-time Job</option>
+              <option value="Contract">Contract Position</option>
+            </select>
+          </div>
+          <div class="mb-1">
+            <h6>Job Description</h6>
+            <textarea
+              class="form-control-sm-dark"
+              id="jobdescription"
+              placeholder="Enter job description"
+            ></textarea>
+          </div>
+          <div class="mb-3">
+            <label for="stipend" class="form-label"
+              >Stipend Amount <br />
+            </label>
+            <input
+              type="text"
+              class="form-control-sm"
+              id="stipend"
+              placeholder="Enter stipend amount"
+            />
+          </div>
+          <button
+            class="btn btn-dark"
+            (click)="handleInput(); handleInput1(); handleInput2()"
+          >
+            Upload
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!--   Fetch Container -->
+    <div class="col-md-6">
+      <div class="card">
+        <div class="card-body" id="cd6">
+          <h5 class="card-title">Fetch Container</h5>
+          <p>Job description: <br />{{ value }}</p>
+          <p>Role : <br />{{ value1 }}</p>
+          <p>Stipend: <br />{{ value2 }}</p>
+        </div>
+      </div>
+    </div>
+
+    <a
+      href="https://blog.hubspot.com/hs-fs/hubfs/Google%20Drive%20Integration/job%20search%20quotes%2C%20102022-Nov-03-2022-04-31-35-2639-AM.jpeg?width=600&height=400&name=job%20search%20quotes%2C%20102022-Nov-03-2022-04-31-35-2639-AM.jpeg"
+    ></a>
+  </div>
+</div>
